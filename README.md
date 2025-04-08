@@ -1,6 +1,6 @@
 # nextjs14-starter-fsdAA
 
-### fsd 아키텍처 구조로 만들 예정
+### fsd 아키텍처 구조 만든 보일러 플레이트
 
 #### 기술스택 
 
@@ -31,6 +31,6 @@ npx husky add .husky/pre-commit "npx lint-staged"
 
 ####  eslint-plugin-import + simple-import-sort로 import 정렬
 
-``shell
+```shell
 npm install --save-dev eslint-plugin-import eslint-plugin-simple-import-sort
 ```
