@@ -1,11 +1,7 @@
 {
-  "name": "nextjs14-fsd-template",
-  "version": "1.0.4",
-  "description": "nextjs fds architecture boilerplate",
-  "private": false,
-  "bin": {
-    "create-next14-fds": "bin/index.js"
-  },
+  "name": "nextjs14-fsd-starter",
+  "version": "1.0.0",
+  "description": "nextjs14 fsd architecture",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -49,15 +45,5 @@
     "prettier": "^3.5.3",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
-  },
-  "keywords": [
-    "boilerplate",
-    "template",
-    "cli",
-    "fds",
-    "next14",
-    "tailwindcss"
-  ],
-  "author": "yoo94",
-  "license": "MIT"
+  }
 }
