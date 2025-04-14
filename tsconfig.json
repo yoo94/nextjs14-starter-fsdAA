@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext", // 최신 JS 변환
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ], // 브라우저 + 최신 JS
+    "lib": ["dom", "dom.iterable", "esnext"], // 브라우저 + 최신 JS
     "allowJs": true, // JS 파일도 허용 (필요 시)
     "skipLibCheck": true, // 타입 정의 파일은 검사 생략
     "esModuleInterop": true, // CommonJS 호환 import 허용
@@ -28,15 +24,6 @@
       }
     ]
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    ".next",
-    "out"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src", "bin"],
+  "exclude": ["node_modules", ".next", "out"]
 }

@@ -25,7 +25,8 @@
   // 사용할 ESLint 플러그인 목록
   "plugins": [
     // 🔧 TypeScript용 플러그인 (추가 타입 규칙 지원)
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "simple-import-sort"
   ],
 
   // 파서 설정 (코드 구문을 어떻게 해석할지 정의)

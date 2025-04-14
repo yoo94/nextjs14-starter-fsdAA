@@ -2,7 +2,16 @@
 
 ### fsd 아키텍처 구조 만든 보일러 플레이트
 
-#### 기술스택
+```
+npm i nextjs14-starter
+
+//In some cases
+
+chmod +x bin/index.js
+
+```
+
+#### 포함된 기술스택
 
 - **nextJs** 14.2.0
 - react
@@ -12,10 +21,6 @@
 - prettier
 - huscky
 - lint-staged
-
-```shell
-npm create next-app@14.2.0 nextjs14-starter
-```
 
 ---
 
@@ -35,7 +40,7 @@ npx husky add .husky/pre-commit "npx lint-staged"
 npm install --save-dev eslint-plugin-import eslint-plugin-simple-import-sort
 ```
 
-### FSD 아키텍처
+### FSD 아키텍처 (템플릿 구조)
 
 #### Layers
 
