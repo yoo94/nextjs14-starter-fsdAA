@@ -2,10 +2,18 @@
 
 ### fsd 아키텍처 구조 만든 보일러 플레이트
 
-```
-npm i nextjs14-starter
+```shell
+// Current location installation
 
-//In some cases
+npm i nextjs14-fsd-template
+
+
+// If there is a directory you want to install in
+
+npm i nextjs14-fsd-template /path/to/target/directory
+
+
+// In some cases
 
 chmod +x bin/index.js
 
